@@ -15,7 +15,7 @@ setup(
     packages=find_packages(),
     author="Yolan Honoré-Rougé",
     entry_points={
-        "kedro.starter": ["starter =  starter_constant:starters"],
+        "kedro.starter": ["starter =  fake_plugin_starter.starter_constant:starters"],
     },
     keywords="kedro-plugin",
 )
