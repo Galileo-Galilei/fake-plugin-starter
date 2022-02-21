@@ -1,1 +1,3 @@
-starters = {"my_fake_starter": {"repo": "http://google.com", "directory": None}}
+starters = {
+    "my_fake_starter": {"template_path": "http://google.com", "directory": None}
+}
